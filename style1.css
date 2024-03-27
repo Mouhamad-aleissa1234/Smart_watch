@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+}
+.total{
+    width: 100%;
+    height: 100%;
+}
+.header{
+    width: 100%;
+    height: 10%;
+    background-attachment: local;
+}
+.section{
+    width: 100%;
+    height: 70%;
+}
+.footer{
+    width: 100%;
+    height: 10%;
+}
+.header ul,.footer 
+{
+    
+    text-transform: capitalize;
+    background-color: black;
+    color: blanchedalmond;
+    padding: 30px;
+    font-size: 23px;
+    margin: 0 ;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    width: auto;
+    text-align: center;
+}
+.footer{
+    padding: 10px;
+}
+.header ul li{
+    display: inline;
+}
+.header ul li:first-child{
+    font-size: 40px;
+    float: left;
+    padding-left: 25px;
+}
+.header ul li:last-child{
+    float: right;
+    padding-right: 20px;
+    padding-left: 100px;
+}
+.header ul li a{
+    color: inherit;
+    text-decoration: none;
+    padding-left: 3px;;
+}
+h1{
+    color: rgb(208, 239, 243);
+    padding: 80px 110px;
+    
+    font-size: 50px;
+}
+input{
+    color: rgb(100, 82, 61);
+    font-weight: bolder;
+    border: 3px solid rgb(208, 239, 243);;
+    border-radius: 7px;
+   
+    margin-left: 180px;;
+    padding: 17px 43px;
+    font-size:25px;
+    background-color: lavender;
+    font-family: 'Times New Roman', Times, serif;
+}
+.section{
+    background-attachment: scroll;
+   border-top:5px solid sandybrown ;
+   border-bottom:5px solid sandybrown ;
+    background-image: url(witch/222.jpg);
+    background-repeat: no-repeat;
+   background-size:100%;   
+}

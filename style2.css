@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+}
+.total{
+    width: 100%;
+    height: 100%;
+}
+.header{
+    width: 100%;
+    height: 10%;
+    background-attachment: local;
+}
+.section{
+    width: 100%;
+    height: 100%;
+}
+.footer{
+    width: 100%;
+    height: 10%;
+}
+.header ul,.footer 
+{
+    
+    text-transform: capitalize;
+    background-color: black;
+    color: blanchedalmond;
+    padding: 30px;
+    font-size: 23px;
+    margin: 0 ;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    width: auto;
+    text-align: center;
+}
+.footer{
+    padding: 10px;
+}
+.header ul li{
+    display: inline;
+}
+.header ul li:first-child{
+    font-size: 40px;
+    float: left;
+    padding-left: 25px;
+}
+.header ul li:last-child{
+    float: right;
+    padding-right: 20px;
+    padding-left: 100px;
+}
+.header ul li a{
+    color: inherit;
+    text-decoration: none;
+    padding-left: 3px;;
+}
+.section{
+    background-image: url(witch/zz.jpg);
+    background-repeat: no-repeat;
+   background-size:100%;  
+   height:700px; 
+  
+  
+}
+.section div{
+    width: 20%;
+    float: left;
+    background-color: rgba(194, 194, 204, 0.7);
+    border: 5px solid rgb(110, 79, 21);
+    border-radius: 20px;
+    padding: 3% 3%;
+    margin: 3%;
+    cursor: pointer;
+}
+.section div span,.section div img,.side div span,.side div img{
+    display: block;
+}
+.section p {
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: xx-large;
+    text-align: center;
+    color: rgb(114, 94, 36);
+    padding: 30px;
+    background-color: rgba(245, 221, 150, 0.5);
+}
+p{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: x-large;
+    text-decoration: underline;
+    text-align: left;
+    color: rgb(66, 66, 65);
+    padding: 2%;
+    background-color: rgba(207, 202, 188, 0.3);
+
+}
+input{
+    color:rgb(110, 79, 21);
+    font-weight: bolder;
+    border: 3px solid rgba(102, 102, 155, 0.7);;
+    border-radius: 7px;
+   margin: 10px;
+   margin-left: 60px;
+   padding: 12px 18px;
+   cursor: grab;
+    font-size:20px;
+    background-color: lavender;
+    font-family: 'Times New Roman', Times, serif;
+}
+.side{
+    background-image: url(witch/dd.webp);
+    background-repeat: no-repeat;
+   background-size:100%;  
+   height:700px; 
+}
+.side div:first-child{
+    width: 27%;
+    float: left;
+    background-color: rgba(231, 231, 236, 0.7);
+    border: 5px solid rgb(110, 79, 21);
+    border-radius: 20px;
+    padding: 5% 3%;
+    margin: 2%;
+    margin-top: 8%;
+    cursor: pointer;
+  
+}
+.side div:last-child{
+    
+    width: 27%;
+    float: right;
+    background-color: rgba(231, 231, 236, 0.7);
+    border: 5px solid rgb(110, 79, 21);
+    border-radius: 20px;
+    padding: 5% 3%;
+    margin: 2%;
+    margin-top: 8%;
+    cursor: pointer;
+}
+.side div input{
+    margin-top: 20px;
+    margin-left:120px;
+}
